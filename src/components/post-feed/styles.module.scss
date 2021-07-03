@@ -1,0 +1,28 @@
+.feed{
+    
+    span{
+        font-size: 12px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        color: #878790;
+    }
+
+    h1{
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.02em;
+        color: #E8EAEE;
+        margin-bottom: 16PX;
+    }
+
+    p{
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #E8EAEE;
+    }
+
+    & + .feed{
+        padding-top: 60px;
+    }
+}

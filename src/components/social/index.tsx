@@ -1,6 +1,8 @@
+import S from "./styles.module.scss"
+
 export default function Social(){
     return (
-      <section className="social">
+      <section className={S.social}>
         <ul>
             <li>github</li>
             <span>/</span>

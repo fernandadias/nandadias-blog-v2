@@ -1,0 +1,15 @@
+.social{
+    
+    ul{
+        display: flex;
+        font-size: 12px;
+        line-height: 13px;
+        text-align: center;
+        color: #878791;
+        transform: rotate(-90deg);
+
+        span{
+            margin: 0 16px;
+        }
+    }
+}

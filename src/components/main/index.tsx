@@ -1,15 +1,17 @@
 import Social from "../social/"
 import Categories from "../categories/"
 
+import S from './styles.module.scss'
+
 interface ChildrenProps {
     children: React.ReactNode
 }
 
 export default function Main({children}:ChildrenProps) {
     return (
-      <section className="main">
+      <section className={S.main}>
         <Social/>
-        <div className="content">{children}</div>
+        <div className={S.content}>{children}</div>
         <Categories/>
       </section>
     )
